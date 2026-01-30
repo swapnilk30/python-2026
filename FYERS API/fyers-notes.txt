@@ -1,1 +1,5 @@
 https://myapi.fyers.in/dashboard
+
+pip install fyers-apiv3
+
+pip freeze > requirements.txt
