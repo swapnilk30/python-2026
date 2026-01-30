@@ -9,3 +9,5 @@ __pycache__/
 Config.yaml
 auth_tokens.json
 
+# Log files
+*.log
