@@ -3,3 +3,23 @@ https://myapi.fyers.in/dashboard
 pip install fyers-apiv3
 
 pip freeze > requirements.txt
+
+
+
+
+templates/
+├── base.html
+├── dashboard/
+│   ├── layout.html
+│   ├── index.html
+│   └── settings.html
+└── partials/
+    ├── navbar.html
+    └── sidebar.html
+
+
+
+
+base.html
+  └── dashboard/layout.html
+        └── dashboard/index.html
