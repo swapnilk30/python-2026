@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block body %}
+<div class="dashboard">
+
+    <aside class="sidebar">
+        {% include "partials/sidebar.html" %}
+    </aside>
+
+    <section class="main">
+        <header>
+            <h1>{% block page_title %}Dashboard{% endblock %}</h1>
+        </header>
+
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </section>
+
+</div>
+{% endblock %}
